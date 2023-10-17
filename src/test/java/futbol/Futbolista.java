@@ -16,7 +16,7 @@ public abstract class Futbolista implements Comparable<Object> {
 	}
 	@Override
 	public String toString() {
-		String texto= "El futbolista " +nombre+ "tiene " +edad+ ", y juega de "+ posicion;
+		String texto= "El futbolista "+nombre+" tiene "+edad+", y juega de "+ posicion;
 		return texto;
 	}
 	
